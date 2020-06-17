@@ -1,0 +1,331 @@
+/* fonts */
+
+@font-face {
+    font-family: 'amble';
+    src: url('../fonts/amble_light_macroman/Amble-Light-webfont.eot');
+    src: url('../fonts/amble_light_macroman/Amble-Light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/amble_light_macroman/Amble-Light-webfont.woff') format('woff'),
+        url('../fonts/amble_light_macroman/Amble-Light-webfont.ttf') format('truetype'),
+        url('../fonts/amble_light_macroman/Amble-Light-webfont.svg') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'amble';
+    src: url('../fonts/amble_bold_macroman/Amble-Bold-webfont.eot');
+    src: url('../fonts/amble_bold_macroman/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/amble_bold_macroman/Amble-Bold-webfont.woff') format('woff'),
+         url('../fonts/amble_bold_macroman/Amble-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/amble_bold_macroman/Amble-Bold-webfont.svg#amblebold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+#referees,
+.icon,
+.icon_loisirs,
+aside,
+.title,
+.date,
+#container,
+header,
+#photo {
+    display: flex;
+}
+
+#photo,
+.icon {
+    justify-content: center;
+}
+
+aside,
+.info h3,
+#main_title {
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    font-family: 'amble', sans-serif;
+    font-weight: lighter;
+    margin: auto;
+}
+
+/* header */
+
+header,
+aside {
+    flex-direction: column;
+}
+
+#photo,
+aside {
+    background-color: #4CAF50;
+}
+
+#photo {
+    padding: 4% 0 4% 0;
+}
+
+img {
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px white;
+}
+
+#underline {
+    border-bottom: 2px solid #4CAF50;
+}
+
+/* corps */
+
+#container {
+    flex-direction: column-reverse;
+}
+
+main {
+    padding: 5%;
+}
+
+.title i {
+    font-size: 1.5em;
+}
+
+.date i,
+.title i {
+    margin-right: 4%;
+}
+
+#name,
+.title i,
+.date i,
+.info h3 {
+    color: #4CAF50;
+}
+
+.title {
+    border-bottom: 2px solid #4CAF50;
+}
+
+h1,
+h3,
+h4,
+.name {
+    text-transform: uppercase;
+}
+
+h1,
+h2 {
+    font-weight: lighter;
+}
+h3 {
+    font-size: 1.3em;
+}
+
+.title,
+.date {
+    align-items: baseline;
+}
+
+address {
+    font-style: normal;
+}
+
+/* aside */
+
+.info h3 {
+    background-color: #424242;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact address,
+#about p,
+.icon_loisirs {
+    padding: 5%;
+}
+
+.icon_loisirs {
+    justify-content: space-around;
+}
+
+.icon {
+    height: 45px;
+    width: 45px;
+    font-size: 2em;
+    border: black solid 2px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+/* écrans mobiles */
+
+@media screen and (max-width: 591px) {
+
+    body {
+        font-size: 0.8em;
+    }
+    
+    .title {
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    h4,
+    .s_title {
+        text-align: center;
+    }
+
+    h4,
+    h2 {
+        margin: 2%;
+    }
+
+    #about p {
+        text-align: justify;
+    }
+
+    address p {
+        margin-top: 0;
+    }
+
+    #referees {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* écrans tablettes */
+
+@media screen and (min-width: 592px) {
+
+    .cursus {
+        display: flex;
+    }
+
+    #referees address {
+        width: 50%;
+    }
+
+    .date {
+        width: 30%;
+    }
+
+    .company {
+        width: 70%;
+    }
+
+    #about p {
+        text-align: justify;
+    }
+
+    .icon {
+
+        height: 60px;
+        width: 60px;
+        font-size: 2.3em;
+    }
+}
+
+/* écrans pc */
+
+@media screen and (min-width: 995px) {
+
+    body {
+        max-width: 1200px;
+        background-color: black;
+    }
+
+    header,
+    #container {
+        flex-direction: row;
+        background-color: white;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h1,
+    h2 {
+        margin: 0;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    aside,
+    #photo,
+    .date {
+        width: 35%;
+    }
+
+    aside,
+    #main_title {
+        text-align: start;
+    }
+
+    #main_title {
+        padding: 0 5% 0 5%;
+    }
+
+    .info h3 {
+        padding: 1% 0 1% 0;
+        margin: 0;
+    }
+
+    main {
+        padding-top: 0;
+        padding-bottom: 3%;
+    }
+
+    main,
+    #main_title,
+    .company {
+        width: 65%;
+    }
+
+    section {
+        margin-bottom: 5%;
+    }
+
+    .cursus {
+        display: flex;
+    }
+
+    #about {
+        flex: 1;
+    }
+
+    #referees address {
+        width: 50%;
+    }
+
+    #contact address,
+    #about p,
+    .icon_loisirs {
+        padding: 10%;
+    }
+
+    .cursus,
+    #referees {
+        padding-top: 5%;
+        align-items: baseline;
+    }
+
+    h4,
+    .s_title {
+        margin: 1%;
+    }
+}
