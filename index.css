@@ -69,8 +69,7 @@ aside {
 }
 
 img {
-    width: 40%;
-    height: auto;
+    width: auto;
     border-radius: 50%;
     box-shadow: 0px 0px 5px white;
 }
@@ -260,11 +259,6 @@ a {
     h1,
     h2 {
         margin: 0;
-    }
-
-    img {
-        width: 60%;
-        height: auto;
     }
 
     aside,
