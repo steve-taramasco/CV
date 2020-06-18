@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: 'amble';
-    src: url('../fonts/amble_light_macroman/Amble-Light-webfont.eot');
-    src: url('../fonts/amble_light_macroman/Amble-Light-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/amble_light_macroman/Amble-Light-webfont.woff') format('woff'),
-        url('../fonts/amble_light_macroman/Amble-Light-webfont.ttf') format('truetype'),
-        url('../fonts/amble_light_macroman/Amble-Light-webfont.svg') format('svg');
+    src: url('fonts/amble_light_macroman/Amble-Light-webfont.eot');
+    src: url('fonts/amble_light_macroman/Amble-Light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/amble_light_macroman/Amble-Light-webfont.woff') format('woff'),
+        url('fonts/amble_light_macroman/Amble-Light-webfont.ttf') format('truetype'),
+        url('fonts/amble_light_macroman/Amble-Light-webfont.svg') format('svg');
     font-weight: lighter;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'amble';
-    src: url('../fonts/amble_bold_macroman/Amble-Bold-webfont.eot');
-    src: url('../fonts/amble_bold_macroman/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/amble_bold_macroman/Amble-Bold-webfont.woff') format('woff'),
-         url('../fonts/amble_bold_macroman/Amble-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/amble_bold_macroman/Amble-Bold-webfont.svg#amblebold') format('svg');
+    src: url('fonts/amble_bold_macroman/Amble-Bold-webfont.eot');
+    src: url('fonts/amble_bold_macroman/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/amble_bold_macroman/Amble-Bold-webfont.woff') format('woff'),
+         url('fonts/amble_bold_macroman/Amble-Bold-webfont.ttf') format('truetype'),
+         url('fonts/amble_bold_macroman/Amble-Bold-webfont.svg#amblebold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
