@@ -323,5 +323,6 @@ a {
     h4,
     .s_title {
         margin: 1%;
+        margin-left: 0;
     }
 }
