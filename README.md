@@ -1,1 +1,1 @@
-Intégration d'une maquette en site web
+Intégration d'une maquette en respectant la semantique HTML
